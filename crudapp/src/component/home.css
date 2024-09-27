@@ -1,0 +1,63 @@
+.container {
+  height: 100vh;
+  width: 100vw;
+  margin: 40px 30px;
+}
+.container h2 {
+  font-size: 40px;
+  margin-bottom: 40px;
+}
+.container a {
+  margin-bottom: 40px;
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-size: 17px;
+  border: none;
+  background-color: #4caf50;
+  color: #fff;
+  outline: none;
+  text-decoration: none;
+}
+.table {
+  width: 90%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  font-size: 16px;
+  text-align: left;
+}
+
+.table thead {
+  background-color: #4caf50;
+  color: white;
+  border-radius: 10px;
+}
+
+.table th,
+.table td {
+  padding: 15px 10px;
+  border: 1px solid #ddd;
+}
+
+.table th {
+  font-weight: bold;
+}
+.table td {
+  vertical-align: middle;
+}
+.table .editbtn {
+  background-color: blue;
+  margin: 0 20px;
+  padding: 9px 15px;
+  border-radius: 10px;
+  color: #fff;
+  border: none;
+  outline: none;
+}
+.table .deletebtn {
+  background-color: red;
+  padding: 9px 15px;
+  border-radius: 10px;
+  color: #fff;
+  border: none;
+  outline: none;
+}
